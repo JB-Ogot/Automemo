@@ -8,17 +8,19 @@ class HomePage extends StatefulWidget {
     return _HomeState();
   }
 }
-class _HomeState extends State<HomePage>{
+
+class _HomeState extends State<HomePage> {
   //sstatic String tag = 'home-page';
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
-    return MaterialApp(home: Scaffold(
-      appBar: AppBar(
-        title: Text('Automemo'),
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: Scaffold(
+        appBar: AppBar(
+          title: Text('Automemo'),
+        ),
       ),
-      
-    ),);
+    );
   }
-
 }
