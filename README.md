@@ -1,4 +1,4 @@
-# group7
+# Automemo
 
 A new Flutter application.
 
